@@ -2,7 +2,7 @@ import openai
 import docx
 
 # Set your OpenAI API key
-openai.api_key = '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'
+openai.api_key = ''
 
 # Function to read training data from a Word document
 def read_training_data_from_docx(file_path):

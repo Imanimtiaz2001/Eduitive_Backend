@@ -2,7 +2,7 @@
 import openai
 
 # Set your OpenAI API key
-openai.api_key = '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'
+openai.api_key = ''
 
 # Function to interactively ask queries and get responses
 def interact_with_chatbot():

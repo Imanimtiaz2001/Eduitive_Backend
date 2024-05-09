@@ -1,12 +1,12 @@
 # app.py
-from dotenv import load_dotenv
+
 from flask import Flask, request, jsonify
 import openai
-import os
 
 app = Flask(__name__)
-load_dotenv()
-api_key=os.getenv('OPENAI_API_KEY')
+
+# Set your OpenAI API key
+openai.api_key = ''
 
 # Function to interactively ask queries and get responses
 def interact_with_chatbot(query):
